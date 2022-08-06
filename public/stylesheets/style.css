@@ -1,8 +1,28 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color:#383838;
 }
 
 a {
   color: #00B7FF;
+}
+#navbar{
+  display: flex;
+  flex-direction: row;
+  align-items:flex-start;
+}
+.navlink{
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  background-color: #383838;
+  list-style-type: none;
+  padding: 8px;
+  flex: auto;
+  font-family: emoji;
+  color: white;
+  border-radius: 1px;
+  margin-bottom: 10px;
+  place-items: center;
+  text-align: center;
 }
